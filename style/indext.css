@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(200, 200, 248);
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.products .product{
+    width: 33.2%;
+    padding: 25px;
+    
+}
+.products div img{
+    width: 100%;
+}
+h1,h2{
+    text-align: center;
+}
+.product{
+    margin-bottom: 10px;
+}
+.productDesc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.productDesc span{
+    margin-top: 15px;
+    font-size: 20px;
+}
